@@ -5,3 +5,8 @@ if [[ $SHLVL < 3 ]]; then
 		source $f
 	done
 fi
+
+# if rvm present, use it
+if [[ -s ~/.rvm/scripts/rvm ]] ; then 
+	source ~/.rvm/scripts/rvm ; 
+fi

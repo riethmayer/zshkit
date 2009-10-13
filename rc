@@ -6,6 +6,4 @@ compinit
 autoload -Uz colors
 colors
 
-# if rvm present, use it
-if [ -s ~/.rvm/scripts/rvm ] ; then source ~/.rvm/scripts/rvm ; fi
 
