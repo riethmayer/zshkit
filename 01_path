@@ -3,3 +3,4 @@ path=(~/bin /opt/local/bin $path)
 
 # Allow MacPorts man pages
 manpath=($manpath /opt/local/man)
+
