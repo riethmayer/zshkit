@@ -1,9 +1,9 @@
 bindkey "${key[Home]}" beginning-of-line
 bindkey "${key[End]}" end-of-line
 
-# vi mode
-bindkey -v
-  
+# vi mode would be -v, -e is emacs mode
+bindkey -e
+
 # use incremental search
 bindkey ^R history-incremental-search-backward
 
