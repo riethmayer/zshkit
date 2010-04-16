@@ -1,8 +1,10 @@
 # I want /opt/local/bin to take precedence
 path=(~/bin /opt/local/bin $path)
 # But this one is more important
-path=(/usr/local/bin /usr/local/sbin /usr/local/mysql/bin $path)
+path=(/usr/local/bin /usr/local/sbin /usr/local/mysql/bin /usr/local/git/libexec /Users/riethmayer/Projects/dai/grails/bin $path)
 
 # Allow MacPorts man pages
 manpath=($manpath /opt/local/man)
+
+export GRAILS_HOME=/Users/riethmayer/Projects/dai/grails
 
