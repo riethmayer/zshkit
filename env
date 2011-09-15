@@ -6,7 +6,7 @@ if [[ $SHLVL < 3 ]]; then
   done
 fi
 
-# if rvm present, use it
-if [[ -s ~/.rvm/scripts/rvm ]] ; then 
-  source ~/.rvm/scripts/rvm ; 
-fi
+setopt nullglob
+unsetopt auto_name_dirs
+source ~/.rvm/scripts/rvm
+rvm use 1.8.7 &> /dev/null

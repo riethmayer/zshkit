@@ -16,7 +16,7 @@ if [[ -x `which git` ]]; then
   }
   function git-need-to-push() {
   if pushtime=$(echo $1 | grep 'Your branch is ahead' 2> /dev/null); then
-    echo "↑ "
+    echo "^ "
   fi
   }
   function git-prompt() {
