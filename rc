@@ -6,4 +6,4 @@ compinit
 autoload -Uz colors
 colors
 
-
+[[ -s "/Users/riethmayer/.rvm/scripts/rvm" ]] && source "/Users/riethmayer/.rvm/scripts/rvm"
