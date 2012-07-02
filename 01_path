@@ -11,3 +11,4 @@ export GRAILS_HOME=/Users/riethmayer/Projects/dai/grails-1.3.3
 export LUA_PATH='?.lua;/Users/riethmayer/Projects/uni/oose10/code/util/?.lua'
 export CC=/usr/bin/gcc-4.2
 # export ANT_HOME=/Users/riethmayer/Projects/apache/ivy/lib
+export TERM=xterm-256color
